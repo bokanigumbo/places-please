@@ -1,16 +1,62 @@
-# React + Vite
+# places please 🎭
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+a theatre run sheet generator i built for my portfolio. if you've ever had to manage a show, you know how chaotic run sheets get — i wanted something that actually works the way a DSM thinks.
 
-Currently, two official plugins are available:
+i've produced two shows at uni so i knew exactly what was missing from every google doc template i'd ever used.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## what it does
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- build a run sheet for any show — play, musical, whatever
+- add scenes with cast, duration, cue types (LX, SQ, FLY, pyro etc) and hazard flags
+- organise scenes into acts with per-act runtimes
+- drag to reorder scenes
+- automatic total runtime + estimated end time from curtain up
+- **calling mode** — full screen, big text view for actually running the show
+- **wings view** — who's on stage, who needs to be in the wings, what's coming next
+- hazard flags (pyro, strobe, fog, flying, live flame, firearms) with red visual treatment so you can't miss them
+- save multiple shows — everything persists in localStorage
+- colour-coded cue types by department
+- dark/light toggle
+- prints cleanly
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## tech stack
+
+- react (vite)
+- plain css — no component library
+- localStorage for persistence
+- no backend, no dependencies beyond react itself
+
+---
+
+## running it locally
+
+```bash
+git clone https://github.com/yourusername/places-please.git
+cd places-please
+npm install
+npm run dev
+```
+
+that's it. no env files, no api keys, nothing to configure.
+
+---
+
+## why i built this
+
+i'm a cs student at the university of liverpool and i also produce theatre. i wanted a project that came from a real problem i actually have — not a tutorial clone.
+
+every show i've done, the run sheet lives in a google doc that breaks under pressure. this doesn't.
+
+---
+
+## screenshots
+
+*coming soon*
+
+---
+
+made by bokani
