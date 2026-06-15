@@ -6,6 +6,8 @@ i've produced two shows at uni so i knew exactly what was missing from every goo
 
 ---
 
+**live demo → [places-please.vercel.app](https://places-please.vercel.app)**
+
 ## what it does
 
 - build a run sheet for any show — play, musical, whatever
